@@ -1,0 +1,14 @@
+main {
+	width: 1180px;
+	min-height: 150px;
+	margin: 200px auto;
+	margin-top: 100vh;
+	position: relative;
+}
+
+@media screen and (max-width: $tablet) {
+	main {
+		width: 100%;
+		padding: 0px 40px;
+	}
+}
